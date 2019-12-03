@@ -45,10 +45,9 @@
     /* margin-right: 3%; */
     margin-left: 5%;
     top: 0;
-    background: #FFFFFF;
     border-radius: 6px;
     float: left;
-    background: green;
+    background: #4E95FF;
     z-index: 4;
     margin-top: 6%;
     display: flex;
