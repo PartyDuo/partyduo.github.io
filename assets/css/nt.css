@@ -28,17 +28,16 @@
 
 
 #nticket {
-	position: relative;
-	width: 110px;
-	height: 52px;
-	left: 30px;
-	top: 0;
-
-	background: #FFFFFF;
-	box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 6px;
-	float: left;
-	z-index: 4;
+	    position: relative;
+    width: 110px;
+    height: 52px;
+    left: 30px;
+    top: 21.7%;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    float: left;
+    z-index: 4;
 
 }
 
@@ -57,27 +56,26 @@
 }
 
 .tambal {
-	position: absolute;
-	width: 126px;
-	height: 32px;
-	left: 30px;
-	top: 173px;
-	z-index: 6;
-	background: white;
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 30px;
+    top: 34.3%;
+    z-index: 6;
+    background: white;
 }
 
 #ninvite {
-	position: relative;
-	width: 110px;
-	height: 52px;
-	left: 30px;
-	top: 0;
-
-	background: #FFFFFF;
-	box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 6px;
-	float: left;
-	z-index: 2;
+	    position: relative;
+    width: 110px;
+    height: 52px;
+    left: 30px;
+    top: 21.7%;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    float: left;
+    z-index: 2;
 }
 
 #invite {
@@ -94,15 +92,14 @@
 
 #nnotif {
 	position: relative;
-	width: 110px;
-	height: 52px;
-	left: 30px;
-	top: 0;
-
-	background: #FFFFFF;
-	box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 6px;
-	float: left;
+    width: 110px;
+    height: 52px;
+    left: 30px;
+    top: 21.7%;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    float: left;
 	
 
 }
