@@ -77,16 +77,16 @@
 }
 
 .isi {
-	position: relative;
-	width: 100vw;
-	height: 35px;
-	left: 0px;
-	top: 27%;
-	padding-left: 30px;
-	padding-right: 30px;
-	top: 12%;
-	background: transparent;
-	margin-top: 2%;
+	 position: relative;
+    width: calc(100vw - 60px);
+    height: 35px;
+    left: 0px;
+    top: 27%;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 12%;
+    background: transparent;
+    margin-top: 2%;
 }
 
 .isi p {
@@ -103,10 +103,8 @@
 
 
 input[type=text] {
-    background-color: transparent;
-   
-    width: 70%;
-    
+     background-color: transparent;
+    width: 84%;
     border: none;
     border-bottom: 2px solid black;
     position: relative;
@@ -117,13 +115,13 @@ input[type=text] {
   }
 
 .rr {
-	position: relative;
-	width: 21px;
-	height: 21px;
-	border: none;
-	right: 0;
-	background: pink;
-	margin-left: 75%;
+	    position: relative;
+    width: 21px;
+    height: 21px;
+    border: none;
+    right: 0;
+    background: pink;
+    margin-left: 94%;
 }
 
 #cp {
