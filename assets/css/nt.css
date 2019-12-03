@@ -121,14 +121,13 @@
 #tl {
 
 	position: relative;
-	width: 414px;
-	height: 589px;
-	left: 0px;
-	top: 47px;
-
-	background: #FFFFFF;
-	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
-	z-index: 3;
+    width: 100vw;
+    height: 66%;
+    left: 0px;
+    top: 28%;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 3;
 }
 
 #scroll {
