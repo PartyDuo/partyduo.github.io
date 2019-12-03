@@ -118,14 +118,14 @@
 
 #next {
 	position: relative;
-	width: 335px;
-	height: 44px;
-	top: 250px;
-	display: block;
-	background: #4E19C0;
-	border-radius: 4px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 335px;
+    height: 44px;
+    top: 15%;
+    display: block;
+    background: #4E19C0;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #next h2 {
