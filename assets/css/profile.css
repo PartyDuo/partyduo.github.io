@@ -46,7 +46,7 @@
 
 #kotak {
 	position: absolute;
-	width: 414px;
+	width: 100vw;
 	height: 72%;
 	left: 0px;
 	top: 28%;
