@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#bg {
+	position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #4E95FF;
+    top: 0;
+}
+
+#circle {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    border-radius: 50%;
+    background: #C4C4C4;
+    z-index: 3;
+}
+
+#gs {
+    position: relative;
+    width: 335px;
+    height: 44px;
+    top: 60%;
+    display: block;
+    background: #4E19C0;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gs h2 {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
