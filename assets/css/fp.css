@@ -32,42 +32,44 @@
    font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 30px;
-    color: white;
-    position: relative;
-    float: left;
-}
-
-#bg h2 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin-top: 11%;
     color: white;
     position: relative;
-    margin-bottom: 42%;
+    /* float: left; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19%;
 }
 
-#bg h4 {
-    font-family: Montserrat;
+#bg p {
+      font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    position: relative;
+    /* float: left; */
+    margin-top: 2%;
+}
+
+
+#bg h2{
+     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 22px;
-    text-align: right;
-    margin-top: 10px;
-    /* margin-left: 30px; */
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 30px;
     color: white;
     position: relative;
-    margin-right: 8%;
 }
+
 
 input[type=text] {
     background-color: transparent;
@@ -81,22 +83,12 @@ input[type=text] {
     position: relative;
   }
 
- input[type=password] {
-    top: 2px;
-    width: 85%;
-    height: 20px;
-    border: none;
-    margin-left: 30px;
-    margin-right: 30px;
-    position: relative;
-  }
 
-
-#l {
-    position: relative;
+#next {
+        position: relative;
     width: 335px;
     height: 44px;
-    top: 23%;
+    top: 7%;
     display: block;
     background: #4E19C0;
     border-radius: 4px;
@@ -104,7 +96,7 @@ input[type=text] {
     margin-right: auto;
 }
 
-#l h2 {
+#next h2 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -112,29 +104,12 @@ input[type=text] {
     line-height: 47px;
     text-align: center;
     color: white;
-    position: relative;
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
 
 }
-
-#bg h3 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 47px;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 2%;
-}
-
-
-
-
-
-
-
-
 
 
 
