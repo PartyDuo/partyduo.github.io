@@ -4,7 +4,7 @@
 }
 
 
-.x {
+.xx {
 
 	position: relative;
     width: 45.55px;
@@ -20,15 +20,20 @@
     background-size: contain;
 }
 
-#bg {
-	position: absolute;
+#g {
+	
 	width: 100vw;
 	height: 100vh;
 	background: #4E95FF;
 	top: 0;
+
+        position: fixed;
+     top: 100vh;
+    left: 0;
+     transition: top 1s;
 }
 
-#bg h1{
+#g h1{
    font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -40,9 +45,10 @@
     color: white;
     position: relative;
     float: left;
+
 }
 
-#bg h2 {
+#g h2 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -55,7 +61,7 @@
     margin-bottom: 42%;
 }
 
-#bg h4 {
+#g h4 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -69,27 +75,9 @@
     margin-right: 8%;
 }
 
-input[type=text] {
-    background-color: transparent;
-   
-    width: 85%;
-    height: 20px;
-    border: none;
-    border-bottom: 2px solid white;
-    margin-left: 30px;
-    margin-right: 30px;
-    position: relative;
-  }
 
- input[type=password] {
-    top: 2px;
-    width: 85%;
-    height: 20px;
-    border: none;
-    margin-left: 30px;
-    margin-right: 30px;
-    position: relative;
-  }
+
+
 
 
 #l {
@@ -116,7 +104,7 @@ input[type=text] {
 
 }
 
-#bg h3 {
+#g h3 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;

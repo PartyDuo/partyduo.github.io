@@ -4,7 +4,7 @@
 }
 
 
-.x {
+.xxx {
 
 	position: relative;
     width: 45.55px;
@@ -20,15 +20,20 @@
     background-size: contain;
 }
 
-#bg {
-	position: absolute;
+#bb {
+	
 	width: 100vw;
 	height: 100vh;
 	background: #4E95FF;
 	top: 0;
+
+      position: fixed;
+     top: 100vh;
+    left: 0;
+     transition: top 1s;
 }
 
-#bg h1{
+#bb h1{
    font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -43,7 +48,7 @@
     margin-top: 19%;
 }
 
-#bg p {
+#bb p {
       font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +62,7 @@
 }
 
 
-#bg h2{
+#bb h2{
      font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -71,7 +76,7 @@
 }
 
 
-input[type=text] {
+input[type=text] [name=uye] {
     background-color: transparent;
    
     width: 85%;
