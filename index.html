@@ -9,30 +9,76 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/fp.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 </head>
-	<div id="b">
-			<div id="circle"><!--foto aja--></div>
-			
-			<div id="gs">
-			<h2 onclick="document.getElementById('bg').style.top='0'">Get Started</h2>
-			</div>
+<body>
+
+	 
+
+	<div class="slideshow-container">
+
+        <div class="mySlides fade">  
+          <img src="assets/picture/222.jpg" style="height:100%; width: 100vw; height: 100vh;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/picture/444.jpg" style="height:100%; width: 100vw; height: 100vh;">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/picture/333.jpg" style="height:100%; width: 100vw; height: 100vh;">
+        </div>
+      
+
 	</div>
 
+	<div id="circle" style="position: fixed; "><!--foto aja--></div>
 
+        <div id="gs">
+      <h2 onclick="document.getElementById('bg').style.top='0'">Get Started</h2>
+      </div>
+<br>
 
+<div style="text-align:center; display: none;" >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!------------------------------------------------------------------->
 	<div id="bg">
 		<div class="x" onclick="document.getElementById('bg').style.top='100vh'"></div>
 		<h2><b>Sign Up</b></h2>
 
 		<h1>Full Name</h1>
-			<input type="text" name="uname" required>
+			<input type="text" name="uname" id="fn">
 
 		<h1>Nickname</h1>
-			<input type="text" name="uname">
+			<input type="text" name="uname" id="nn">
 		
 		<h1>Date Of Birth</h1>
 			<td>
-			<select name="Birthday_day" id="Birthday_Day">
+			<select name="Birthday_day" id="bd">
 			<option value="-1">Day:</option>
 			<option value="1">1</option>
 			<option value="2">2</option>
@@ -71,7 +117,7 @@
 			<option value="31">31</option>
 			</select>
 			 
-			<select id="Birthday_Month" name="Birthday_Month">
+			<select name="Birthday_Month" id="bm">
 			<option value="-1">Month:</option>
 			<option value="January">Jan</option>
 			<option value="February">Feb</option>
@@ -87,7 +133,7 @@
 			<option value="December">Dec</option>
 			</select>
 			 
-			<select name="Birthday_Year" id="Birthday_Year">
+			<select name="Birthday_Year" id="by">
 			 
 			<option value="-1">Year:</option>
 			<option value="2001">2001</option>
@@ -119,26 +165,63 @@
 		
 		
 		<h1>Location</h1>
-			<input type="text" name="uname">
+			<input type="text" name="uname" id="location">
 		
 		<h1>Phone Number</h1>
-			<input type="text" name="uname">
+			<input type="Number" name="uname" id="pn">
 		
 		<h1>E-mail</h1>
-			<input type="text" name="uname">
+			<input type="text" name="uname" id="e">
 		
 		<h1>Password*</h1>
-			 <input type="password" placeholder="Enter Password" name="psw" required>
+			 <input type="password" placeholder="Enter Password" name="psw" required id="pass">
 		
 		<h1>Re-enter Password</h1>
-			<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			<input type="password" placeholder="Repeat Password" name="psw-repeat" required id="rpass">
+
+			<!--warning -->
+	<div id="warning" style="display: none;">
+     <p> *You haven't finished* </p>
+      <button type="button" onclick="document.getElementById('warning').style.display = 'none'">
+        close
+      </button>
+    </div> 
+    <!--warning -->
 
 		<div id="su">
-				<h2 onclick="location.replace('home.html')">Sign Up</h2>
+				<h2 onclick="haha()">Sign Up</h2>
 		</div>
 
-		<h3>Already have account? <b onclick="document.getElementById('g').style.top='0'">Sign in</b></h3>
+		<h3>Already have an account? <b onclick="document.getElementById('g').style.top='0'">Sign in</b></h3>
 	</div>
+
+	
+<script>
+    function haha() {
+      var A = document.getElementById('fn').value;
+      var B = document.getElementById('nn').value;
+      var C = document.getElementById('bd').value; 
+      var D = document.getElementById('bm').value;
+      var E = document.getElementById('by').value;
+      var F = document.getElementById('location').value;
+      var G = document.getElementById('pn').value;
+      var H = document.getElementById('e').value;
+      var I = document.getElementById('pass').value;
+      var J = document.getElementById('rpass').value;
+      if (A !== '' && B !== '' && C !== '' && D !== '' && E !== '' && F !== '' && G !== ''
+      	&& H !== '' && I !== '' && J !== '') {
+         window.location.replace('home.html');
+      } else {
+       document.getElementById('warning').style.display ='block';
+      }
+     
+    }
+
+   </script>
+  
+
+<!------------------------------------------------------------------->
+
 
 
 	<div id="g">
@@ -146,37 +229,84 @@
 		<h2 onclick="location.replace('home.html')"><b>Sign In</b></h2>
 
 		<h1>E-mail</h1>
-			<input type="text" name="uname">
+			<!--<input type="text" name="uname">-->
+			<input id="email" type="email" class="what">
 		
 		<h1>Password</h1> <h4 onclick="document.getElementById('bb').style.top='0'"><b>Forgot Password?</b></h4>
-			 <input type="password" placeholder="Enter Password" name="psw" required>
+			<!-- <input type="password" placeholder="Enter Password" name="psw" required>-->
+			 <input id="password" type="password" class="how" placeholder="Enter Password">
+
+			 <!--warning 2-->
+	<div id="warning2" style="display: none;">
+      <p>*wrong E-mail or password*</p>
+      <button type="button" onclick="document.getElementById('warning2').style.display = 'none'">
+        close
+      </button>
+    </div> 
+    <!--warning 2-->
 
 			<div id="l">
-				<h2 onclick="location.replace('home.html')">Leggo!</h2>
+				<h2 onclick="hehe()">Leggo!</h2>
 			</div>
 	</div>
 
+<script type="text/javascript">
+    function hehe() {
+      var x = document.getElementById('email').value;
+      var y = document.getElementById('password').value;
+      if (x !== '' && y !== '') {
+         window.location.replace('home.html');
+      } else {
+       document.getElementById('warning2').style.display = 'block';
+      }
+     
+    }
+  
+</script>
+
+<!------------------------------------------------------------------->
 
 
 
-	<div id="bb">
+<div id="bb">
 		<div class="xxx" onclick="document.getElementById('bb').style.top='100vh'"></div> 
 		<h1><b>Forgot Password?</b></h1>
 		<p>Enter the email address associated 
 		<br>with your account.</p>
 
 		<h2>E-mail</h2>
-			<input type="text" name="uye">
-
+			<input type="text" name="uye" id="mail">
+		
+		 <!--warning 3-->
+	<div id="warning3" style="display: none;">
+     <p style="color: black; font-weight: 400; font-size: 12px;">*E-mail please*</p>
+      <button type="button" onclick="document.getElementById('warning3').style.display = 'none'">
+        close
+      </button>
+    </div> 
+    <!--warning 3-->
 
 		<div id="next">
-				<h2 onclick="location.replace('home.html')">Next</h2>
+				<h2 onclick="hoho()">Next</h2>
 		</div>
 
 	</div>
 
+<script type="text/javascript">
+    function hoho() {
+      var z = document.getElementById('mail').value;
+      if (z !== '') {
+         window.location.replace('home.html');
+      } else {
+       document.getElementById('warning3').style.display = 'block';
+      }
+     
+    }
+  
+</script>
 
-
+</body>
+</html>
 
 
 
