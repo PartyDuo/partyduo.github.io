@@ -118,6 +118,119 @@
 
 
 
+input.what {
+    background-color: transparent;
+   
+    width: 85%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+  }
+
+ input.how {
+    top: 2px;
+    width: 85%;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    background-color: transparent;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+
+  }
+
+#warning {
+    position: fixed;
+    top: 240px;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    background-color: pink;
+    display: none;
+}
+
+#warning p {
+ font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    /* margin-left: 30px; */
+    color: black;
+    position: relative;
+   
+}
+
+#warning2 {
+    position: fixed;
+    top: 240px;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    background-color: pink;
+    display: none;
+}
+
+#warning2 p {
+ font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    /* margin-left: 30px; */
+    color: black;
+    position: relative;
+   
+}
+
+#warning3 {
+    position: fixed;
+    top: 240px;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    background-color: pink;
+    display: none;
+}
+
+#warning3 p {
+ font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    /* margin-left: 30px; */
+    color: black;
+    position: relative;
+   
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
