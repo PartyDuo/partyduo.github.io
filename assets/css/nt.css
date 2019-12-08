@@ -5,7 +5,7 @@
 
 .x {
 
-	position: relative;
+    position: relative;
     width: 45.55px;
     height: 45.55px;
     top: 4%;
@@ -20,7 +20,7 @@
 }
 
 #bg {
-	    position: absolute;
+        position: absolute;
     width: 100vw;
     height: 100vh;
     background: #4E95FF;
@@ -39,7 +39,7 @@
 
 
 .nticket {
-	position: relative;
+    position: relative;
     width: 110px;
     height: 52px;
     /* margin-right: 3%; */
@@ -55,16 +55,16 @@
 }
 
 #ticket {
-	position: relative;
-	width: 68px;
-	height: 27px;
-	margin-left: auto;
-	margin-right: auto;
-	background-position: center;
+    position: relative;
+    width: 68px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
     background-size: cover;
-	top: 24%;
-	background-image: url("../picture/TKT2.png");
-	background-repeat: no-repeat;
+    top: 16%;
+    background-image: url(../picture/TKT2.png);
+    background-repeat: no-repeat;
 
 }
 
@@ -73,28 +73,32 @@
 
 
 #invite {
-	position: relative;
-	width: 68px;
-	height: 27px;
-	margin-left: auto;
-	margin-right: auto;
-	background: pink;
-	top: 24%;
+    position: relative;
+    width: 77px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    top: 1%;
+    background-image: url(../picture/invitation.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 71%;
 }
 
 
 
 
 #notif {
-	position: relative;
-	width: 68px;
-	height: 27px;
-	margin-left: auto;
-	margin-right: auto;
-	top: 24%;
-	background-image: url("../picture/notif.png");
-	background-position: center;
-    background-size: contain;
+    position: relative;
+    width: 70px;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -13%;
+    background-image: url(../picture/notif.png);
+    background-position: center;
+    background-size: 72%;
     background-repeat: no-repeat;
 }
 
@@ -124,16 +128,14 @@
 
 
 .t {
-	position: relative;
-	width: 90%;
-	height: 33%;
-	margin-bottom: 20px;
-	background: pink;
-	background-image: url("../picture/tick.png");
-	margin-left: auto;
-	margin-right: auto;
+    position: relative;
+    width: 90%;
+    height: 33%;
+    margin-bottom: 20px;
+    background: pink;
+    background-image: url("../picture/tick.png");
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 
 
