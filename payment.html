@@ -4,6 +4,7 @@
 	<title>Pary Duo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="assets/css/payment.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/mb.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,7 +13,7 @@
 		<div class="x" onclick="location.replace('home.html')"></div>
 		<div id="videostarr">
 			<p>Videostarr - cherrybomb</p>
-			<p>vol.III</p>
+			<p>vol.I</p>
 		</div>
 		<div id="payment">
 			<div id="choose">
@@ -21,38 +22,93 @@
 			<!--kotak pink nya-->
 			<div class="ppb">
 				<div class="dot"></div>
+				<div class="pt" onclick="document.getElementById('b').style.top='0'">
+					<p>Mobile banking</p>
+				</div>
+			</div>
+
+			<script>
+			function myFunction() {
+			  document.getElementById("ovo").style.background = "red";
+			}
+			</script>
+
+
+			<div class="ppb">
+				<div class="dot" onclick="location.replace('bill.html')"></div>
 				<div class="pt">
-					<p>Mobile Banking</p>
+					<p onclick="location.replace('bill.html')">OVO</p>
+				</div>
+			</div>
+			
+			<div class="ppb">
+				<div class="dot" onclick="location.replace('bill.html')"></div>
+				<div class="pt">
+					<p onclick="location.replace('bill.html')">GoPay</p>
+				</div>
+			</div>
+			
+			<div class="ppb">
+				<div class="dot" onclick="location.replace('bill.html')"></div>
+				<div class="pt">
+					<p onclick="location.replace('bill.html')">Dana</p>
+				</div>
+			</div>
+			<!--
+			<div id="next">
+				<h2 onclick="location.replace('bill.html')">NEXT</h2>
+			</div> -->
+		
+		</div>
+	</div>
+<!----------------------------------------------------------------------------->
+
+	<div id="b">
+		<div class="xx" onclick="document.getElementById('b').style.top='100vh'"></div>
+		<div id="videostarr">
+			<p>Videostarr - cherrybomb</p>
+			<p>vol.I</p>
+		</div>
+		<div id="payment">
+			<div id="choose">
+				<p>Choose your method of payment</p>
+			</div>
+			<!--kotak pink nya-->
+			<div class="ppb">
+				<div class="dot" onclick="location.replace('bill.html')"></div>
+				<div class="pt">
+					<p onclick="location.replace('bill.html')">MBCA</p>
 				</div>
 			</div>
 
 			<div class="ppb">
-				<div class="dot"></div>
+				<div class="dot" onclick="location.replace('bill.html')"></div>
 				<div class="pt">
-					<p>OVO</p>
+					<p onclick="location.replace('bill.html')">CIMB Niaga</p>
 				</div>
 			</div>
 			
 			<div class="ppb">
-				<div class="dot"></div>
+				<div class="dot" onclick="location.replace('bill.html')"></div>
 				<div class="pt">
-					<p>GoPay</p>
+					<p> onclick="location.replace('bill.html')"Permata</p>
 				</div>
 			</div>
 			
 			<div class="ppb">
-				<div class="dot"></div>
+				<div class="dot" onclick="location.replace('bill.html')"></div>
 				<div class="pt">
-					<p>Dana</p>
+					<p onclick="location.replace('bill.html')" >Mandiri</p>
 				</div>
 			</div>
 			
-			<div id="next">
+			<!--<div id="next">
 				<h2 onclick="location.replace('bill.html')">NEXT</h2>
-			</div>
+			</div>-->
 		
 		</div>
 	</div>
+
 
 
 
