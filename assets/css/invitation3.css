@@ -5,11 +5,9 @@
 
 #belakang {
 	position: relative;
-	width: 100vw;
-	height: 100vh;
-	 background-image: url(../picture/po.png);
-    background-position: center;
-    background-size: contain;
+	width: 414px;
+	height: 736px;
+	background-image: radial-gradient(#5F71B3, #F248A1);
 }
 
 .x {
@@ -31,16 +29,14 @@
 
 #photoX {
     position: relative;
-      position: relative;
     width: 372px;
     height: 546px;
     top: 9%;
-    background: url(../picture/cb.png);
-    background-size: 148%;
+    background: url(../picture/retro.png);
+    background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-    background-position: center;
 }
 
 

@@ -7,8 +7,7 @@
 	position: relative;
 	width: 414px;
 	height: 736px;
-	background: #4E95FF;
-    background-image: radial-gradient(#93559A, #FD8D2E);
+	background-image: radial-gradient(#93559A, #FD8D2E);
 }
 
 .x {
@@ -33,7 +32,7 @@
     height: 546px;
     left: 21px;
     top: 126px;
-    background: url(../picture/t1.png);
+    background: url(../picture/t3.png);
     background-color: transparent;
     background-position: center;
     background-size: 145%;

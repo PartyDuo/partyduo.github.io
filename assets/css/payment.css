@@ -23,6 +23,7 @@
     width: 100vw;
     height: 100vh;
     background: #4E95FF;
+    background-image: linear-gradient(-60deg, #E34DA4, #8A3FB2);
 }
 
 
@@ -96,6 +97,16 @@
     margin-right: 5%;
     top: 18%;
     margin-left: 2%;
+
+
+}
+
+#ovo {
+     width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: relative;
+     background-color: white;
 }
 
 .pt {
@@ -138,6 +149,11 @@
     color: white;
     position: relative;
 
+}
+
+input.bayar {
+    float: left;
+    margin-right: 2%;
 }
 
 

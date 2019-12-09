@@ -26,7 +26,10 @@
 	height: 100vh;
 	background: #4E95FF;
 	top: 0;
-
+    background-image: url(../picture/po.png);
+     background-position: center;
+    background-size: contain;
+    
 
 	    position: fixed;
      top: 100vh;

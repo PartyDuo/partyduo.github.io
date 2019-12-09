@@ -22,12 +22,17 @@
 
 #bb {
 	
-	width: 100vw;
-	height: 100vh;
-	background: #4E95FF;
-	top: 0;
+	position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #4E95FF;
+    top: 0;
+    background-image: url(../picture/pb.png);
+     background-position: center;
+    background-size: contain;
+    
 
-      position: fixed;
+        position: fixed;
      top: 100vh;
     left: 0;
      transition: top 1s;
