@@ -103,6 +103,20 @@ input[type=number] {
     position: relative;
   }
 
+input[type=email] {
+    background-color: transparent;
+   
+    width: 85%;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+  }
+
+
+
 #su {
 	    position: relative;
     width: 335px;
